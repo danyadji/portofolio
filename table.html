@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>turotial</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      .table{
+          border-collapse: collapse;
+          width: 100% ;
+          margin-top: 30px;
+      }
+      td{
+          padding: 20px 50px 20px 50px;  
+          text-align: center;
+      }
+      th{
+          background-color: #507687;
+          padding: 10px;
+          color: white;
+      }
+      h2{
+          text-align:center;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--NAVBAR-->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">TUTORIALLLLLLLLL!!!!</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="tutorial.html" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#" class="nav-link">BAB 1</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#" class="nav-link">BAB 2</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="" class="nav-link">BAB 3</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="" class="nav-link">BAB 4</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="" class="nav-link">BAB 5</a>
+              <div class="circle"></div>
+            </li>
+            <div class="nav-button">
+              <button class="btn">
+                <a style ="text-decoration: none;" href="index.html">Back Home </a><i class="uil uil-file-alt"></i>
+              </button>
+            </div>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div> 
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1 style="padding: 30px;">Basic Table in HTML</h1>
+            <span>Untuk membuat tabel dasar dalam HTML, Anda dapat menggunakan elemen &lt;table&gt; yang berfungsi sebagai wadah utama. Baris dalam tabel dibuat menggunakan elemen &lt;tr&gt; (table row), sedangkan sel-sel dalam baris tersebut menggunakan elemen &lt;td&gt; (table data) untuk isi data dan &lt;th&gt; (table header) untuk judul kolom. Agar tabel terlihat lebih rapi, Anda bisa menambahkan atribut seperti border untuk memberi garis tepi pada tabel, sehingga memudahkan dalam pembacaan data yang ditampilkan.</span>
+          </div>
+          </section>
+
+        <!--table section-->
+        <div class="table-wrapper">
+          <table class="table" border="1" cellpadding="0">
+              <thead>
+                  <tr>
+                      <th>NIM</th>
+                      <th>Nama</th>
+                      <th>IPK SMT 1 - 8</th>
+                      <th>Jurusan</th>
+                      <th>Fakultas</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>5220311132</td>
+                      <td>REAL GOAT Messi</td>
+                      <td>4.0</td>
+                      <td>Sistem Informasi</td>
+                      <td>Sains & Teknologi</td>
+                  </tr>
+                  <tr>
+                      <td>5220311133</td>
+                      <td>Cristiano Messialdo</td>
+                      <td>3.6</td>
+                      <td>Teknik Elektro</td>
+                      <td>Sains & Teknologi</td>
+                  </tr>
+                  <tr>
+                      <td>5220311134</td>
+                      <td>Bung Towell xixixi</td>
+                      <td>2.0</td>
+                      <td>Ilmu Komunikasi</td>
+                      <td>Soshum</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  <main class="wrapper">
+    <section class="section" id="contact">
+      <div class="top-header">
+        <h1 style="padding: 30px;">Form in HTML</h1>
+        <span>Untuk membuat form di HTML, kita menggunakan elemen &lt;form&gt; yang berfungsi sebagai wadah utama untuk semua elemen input. Di dalam &lt;form&gt;, Anda bisa menambahkan elemen-elemen seperti &lt;input&gt;, &lt;label&gt;, &lt;textarea&gt;, dan &lt;button&gt;. Elemen &lt;input&gt; digunakan untuk menerima berbagai jenis data dari pengguna, seperti teks, email, atau kata sandi, yang diatur dengan atribut type. Setiap elemen input biasanya dihubungkan dengan elemen &lt;label&gt; untuk memberikan informasi tentang apa yang harus diisi oleh pengguna.
+        </span>
+        </div>
+      </section>
+      
+
+      <form class="registration-form">
+    
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <button type="submit">Register</button>
+
+    </form>
+    <main class="wrapper">
+      <section class="section" id="contact">
+        <div class="top-header">
+          <h1 style="padding: 30px;">How Work?</h1>
+          <span>Ketika dijalankan, form tersebut akan menampilkan kolom input untuk mengisi username yang diapit oleh label teks "Username" di sebelahnya. Setelah pengguna memasukkan username mereka, terdapat tombol "Submit" yang dapat ditekan untuk mengirimkan data. Seluruh elemen ini disusun dalam form yang rapi dan responsif, sesuai dengan pengaturan yang dibuat di dalam kode.</span>
+        </div>
+        </section>
+    
+    
+</body>
+</html>
